@@ -1,0 +1,10 @@
+{
+  "name": "@de-liker/gcss",
+  "version": "0.1.0",
+  "description": "DE LIKER's g.css",
+  "main": "g.css",
+  "repository": "https://github.com/de-liker/gcss.git",
+  "author": "Qs-F <qsf@de-liker.com>",
+  "license": "MIT",
+  "private": false
+}
