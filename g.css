@@ -1,0 +1,169 @@
+:root {
+  --black: #000814;
+  --blackish: #001433;
+  --charcoal: #334A71;
+  --gray: #7A8EAE;
+  --fog: #C5D4ED;
+  --whitish: #EBF2FF;
+  --white: #FAFCFF;
+  --red: #FF8A8A;
+  --orange: #FFA68A;
+  --yellow: #FFE58A;
+  --green: #8AFFB9;
+  --sky: #8ADCFF;
+  --blue: #8AB7FF;
+  --purple: #9A8AFF;
+  --pink: #FF8AC2;
+  --red-dull: #D65C5C;
+  --orange-dull: #ED6A41;
+  --yellow-dull: #FCC607;
+  --green-dull: #5CD68D;
+  --sky-dull: #5CB1D6;
+  --blue-dull: #5C8BD6;
+  --purple-dull: #6D5CD6;
+  --pink-dull: #D65C97;
+  --red-pale: #FFE0E0;
+  --orange-pale: #FFE8E0;
+  --yellow-pale: #FFF8E0;
+  --green-pale: #E0FFED;
+  --sky-pale: #E0F6FF;
+  --blue-pale: #E0ECFF;
+  --purple-pale: #E5E0FF;
+  --pink-pale: #FFE0EF;
+
+  --black-rgb: 0, 8, 20;
+  --blackish-rgb: 0, 20, 51;
+  --charcoal--rgb: 51, 74, 113;
+  --gray-rgb: 122, 142, 174;
+  --fog-rgb: 197, 212, 237;
+  --whitish-rgb: 235, 242, 255;
+  --white-rgb: 250, 252, 255;
+  --red-rgb: 255, 138, 138;
+  --orange-rgb: 255, 166, 138;
+  --yellow-rgb: 255, 229, 138;
+  --green-rgb: 138, 255, 185;
+  --sky-rgb: 138, 220, 255;
+  --blue-rgb: 138, 183, 255;
+  --purple-rgb: 154, 138, 255;
+  --pink-rgb: 255, 138, 194;
+  --red-dull-rgb: 214, 92, 92;
+  --orange-dull-rgb: 237, 106, 65;
+  --yellow-dull-rgb: 252, 198, 7;
+  --green-dull-rgb: 92, 214, 141;
+  --sky-dull-rgb: 92, 177, 214;
+  --blue-dull-rgb: 92, 139, 214;
+  --purple-dull-rgb: 109, 92, 214;
+  --pink-dull-rgb: 214, 92, 151;
+  --red-pale-rgb: 255, 224, 224;
+  --orange-pale-rgb: 255, 232, 224;
+  --yellow-pale-rgb: 255, 248, 224;
+  --green-pale-rgb: 224, 255, 237;
+  --sky-pale-rgb: 224, 246, 255;
+  --blue-pale-rgb: 224, 236, 255;
+  --purple-pale-rgb: 229, 224, 255;
+  --pink-pale-rgb: 255, 224, 239;
+
+  --font-family-sans: "YakuHanJP", "Inter", "Inter var", "Noto Sans JP", sans-serif;
+  --font-family-monospaced: "Roboto Mono", "Noto Sans JP", monospace;
+  --font-family-serif: "YakuHanMP", "Playfair Display", "Noto Serif JP", serif;
+
+  --font-size-1: 12px;
+  --font-size-2: 16px;
+  --font-size-3: 20px;
+  --font-size-4: 24px;
+  --font-size-5: 32px;
+  --font-size-6: 40px;
+  --font-size-7: 48px;
+  --font-size-8: 64px;
+
+  --line-height-1: 1.33333333;
+  --line-height-2: 1.5;
+  --line-height-3: 1.6;
+  --line-height-4: 1.66666666;
+  --line-height-5: 1.5;
+  --line-height-6: 1.4;
+  --line-height-7: 1.5;
+  --line-height-8: 1.5;
+
+  --font-weight-light: 200;
+  --font-weight-regular: 500;
+  /* Since Google Fonts's weight fallback is configurable, 900. DO NOT include Noto Sans 900 (use 800) */
+  --font-weight-bold: 800;
+
+  --letter-spacing-tight: .0025em;
+  --letter-spacing-basis: .09em;
+  --letter-spacing-wide: .12em;
+
+  --content-width: 640px;
+  --page-margin: 32px;
+}
+
+body.reader {
+  --line-height-2 :2;
+}
+
+@media screen and (max-width: 800px) {
+  :root {
+    --font-size-impact: var(--font-size-7);
+    --page-margin: 16px;
+  }
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  word-break: break-word;
+  text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html,
+body {
+  background-color: var(--black);
+  color: var(--white);
+  font-family: var(--font-family-sans);
+  font-size: var(--font-size-2);
+  font-weight: var(--font-weight-regular);
+  height: 100%;
+  letter-spacing: var(--letter-spacing-basis);
+  line-height: var(--line-height-2);
+  text-rendering: optimizeLegibility;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+button,
+input,
+textarea,
+select {
+  font-family: inherit
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button,
+[type='button'],
+[type='reset'],
+[type='submit'] {
+  appearance: button;
+}
+
