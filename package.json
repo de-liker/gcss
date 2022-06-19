@@ -3,6 +3,9 @@
   "version": "2.0.0",
   "description": "DE LIKER's g.css",
   "main": "g.css",
+  "files": [
+    "g.css"
+  ],
   "repository": "https://github.com/de-liker/gcss.git",
   "author": "Qs-F <qsf@de-liker.com>",
   "license": "MIT",
