@@ -1,6 +1,6 @@
 # pkg `gcss`
 
-`gcss` is DE LIKER's global CSS.
+`gcss` is DE LIKER's CSS reset with minimum default style.
 
 ## Installation
 
