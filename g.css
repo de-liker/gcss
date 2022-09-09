@@ -6,29 +6,29 @@
   --fog: #C5D4ED;
   --whitish: #EBF2FF;
   --white: #FAFCFF;
-  --red: #FF8A8A;
-  --orange: #FFA68A;
-  --yellow: #FFE58A;
-  --green: #8AFFB9;
-  --sky: #8ADCFF;
-  --blue: #8AB7FF;
-  --purple: #9A8AFF;
-  --pink: #FF8AC2;
+  --red-vivid: #FF8A8A;
   --red-dull: #D65C5C;
-  --orange-dull: #ED6A41;
-  --yellow-dull: #FCC607;
-  --green-dull: #5CD68D;
-  --sky-dull: #5CB1D6;
-  --blue-dull: #5C8BD6;
-  --purple-dull: #6D5CD6;
-  --pink-dull: #D65C97;
   --red-pale: #FFE0E0;
+  --orange-vivid: #FFA68A;
+  --orange-dull: #ED6A41;
   --orange-pale: #FFE8E0;
+  --yellow-vivid: #FFE58A;
+  --yellow-dull: #FCC607;
   --yellow-pale: #FFF8E0;
+  --green-vivid: #8AFFB9;
+  --green-dull: #5CD68D;
   --green-pale: #E0FFED;
+  --sky-vivid: #8ADCFF;
+  --sky-dull: #5CB1D6;
   --sky-pale: #E0F6FF;
+  --blue-vivid: #8AB7FF;
+  --blue-dull: #5C8BD6;
   --blue-pale: #E0ECFF;
+  --purple-vivid: #9A8AFF;
+  --purple-dull: #6D5CD6;
   --purple-pale: #E5E0FF;
+  --pink-vivid: #FF8AC2;
+  --pink-dull: #D65C97;
   --pink-pale: #FFE0EF;
 
   --black-rgb: 0, 8, 20;
@@ -38,29 +38,29 @@
   --fog-rgb: 197, 212, 237;
   --whitish-rgb: 235, 242, 255;
   --white-rgb: 250, 252, 255;
-  --red-rgb: 255, 138, 138;
-  --orange-rgb: 255, 166, 138;
-  --yellow-rgb: 255, 229, 138;
-  --green-rgb: 138, 255, 185;
-  --sky-rgb: 138, 220, 255;
-  --blue-rgb: 138, 183, 255;
-  --purple-rgb: 154, 138, 255;
-  --pink-rgb: 255, 138, 194;
+  --red-vivid-rgb: 255, 138, 138;
   --red-dull-rgb: 214, 92, 92;
-  --orange-dull-rgb: 237, 106, 65;
-  --yellow-dull-rgb: 252, 198, 7;
-  --green-dull-rgb: 92, 214, 141;
-  --sky-dull-rgb: 92, 177, 214;
-  --blue-dull-rgb: 92, 139, 214;
-  --purple-dull-rgb: 109, 92, 214;
-  --pink-dull-rgb: 214, 92, 151;
   --red-pale-rgb: 255, 224, 224;
+  --orange-vivid-rgb: 255, 166, 138;
+  --orange-dull-rgb: 237, 106, 65;
   --orange-pale-rgb: 255, 232, 224;
+  --yellow-vivid-rgb: 255, 229, 138;
+  --yellow-dull-rgb: 252, 198, 7;
   --yellow-pale-rgb: 255, 248, 224;
+  --green-vivid-rgb: 138, 255, 185;
+  --green-dull-rgb: 92, 214, 141;
   --green-pale-rgb: 224, 255, 237;
+  --sky-vivid-rgb: 138, 220, 255;
+  --sky-dull-rgb: 92, 177, 214;
   --sky-pale-rgb: 224, 246, 255;
+  --blue-vivid-rgb: 138, 183, 255;
+  --blue-dull-rgb: 92, 139, 214;
   --blue-pale-rgb: 224, 236, 255;
+  --purple-vivid-rgb: 154, 138, 255;
+  --purple-dull-rgb: 109, 92, 214;
   --purple-pale-rgb: 229, 224, 255;
+  --pink-vivid-rgb: 255, 138, 194;
+  --pink-dull-rgb: 214, 92, 151;
   --pink-pale-rgb: 255, 224, 239;
 
   --font-family-sans: "YakuHanJP", "Inter", "Inter var", "Noto Sans JP", sans-serif;
@@ -78,6 +78,7 @@
 
   --line-height-1: 1.33333333;
   --line-height-2: 1.5;
+  --line-height-2-reader: 2;
   --line-height-3: 1.6;
   --line-height-4: 1.66666666;
   --line-height-5: 1.5;
@@ -93,20 +94,6 @@
   --letter-spacing-tight: .0025em;
   --letter-spacing-basis: .09em;
   --letter-spacing-wide: .12em;
-
-  --content-width: 640px;
-  --page-margin: 32px;
-}
-
-body.reader {
-  --line-height-2 :2;
-}
-
-@media screen and (max-width: 800px) {
-  :root {
-    --font-size-impact: var(--font-size-7);
-    --page-margin: 16px;
-  }
 }
 
 *,
